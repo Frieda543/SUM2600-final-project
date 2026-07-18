@@ -1,7 +1,7 @@
 ---
 title: "SUM26001 Final Project Report"
 author: "Liu Zhaotong (202420106046)"
-date: 7.18
+date: 18 June 2026
 format: html
 ---
 
