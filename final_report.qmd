@@ -1,0 +1,189 @@
+---
+title: "SUM26001 Final Project Report"
+author: "Liu Zhaotong (202420106046)"
+date: 7.18
+format: html
+---
+
+# Introduction
+
+Academic performance is an important topic in education because it is often used to evaluate learning outcomes, student progress, and future opportunities. However, academic performance is rarely determined by a single factor. Instead, it is affected by a combination of personal effort, learning environment, attendance, study habits, and social background.
+
+This project explores factors associated with student academic performance. The purpose is not only to discuss what may influence student outcomes, but also to demonstrate a complete project workflow that includes problem formulation, analytical planning, interpretation, and reflection on project challenges.
+
+# Problem Statement
+
+The core problem addressed in this project is:
+
+**What factors are associated with student academic performance, and how can these relationships be explored in a clear and structured way?**
+
+This problem is important because understanding the possible drivers of academic performance can help students, teachers, and schools make better decisions. Even a basic exploratory project can provide useful insight into how study-related and background-related factors may relate to performance.
+
+# Objectives
+
+The objectives of this project are:
+
+1. To clearly define a research problem related to student academic performance.
+2. To identify several potential explanatory factors, including study time, attendance, and learning environment.
+3. To describe an analytical framework for examining how these factors may be associated with academic outcomes.
+4. To document project bottlenecks and explain how the project design was adjusted in response.
+5. To present findings in a clear narrative format.
+
+# Background and Motivation
+
+Student academic performance has long been studied in education, sociology, and data science. Common factors discussed in previous studies include time spent studying, class attendance, socioeconomic status, parental support, access to learning resources, and prior academic preparation.
+
+This project is motivated by a practical question: when trying to understand why some students perform better than others, which factors should be considered first? Although this report does not attempt to solve every part of the issue, it provides a structured exploration of the topic and highlights the challenges involved in turning an educational question into a workable analytical project.
+
+# Data / Materials
+
+The project was initially planned as a small data analysis project using student-related variables such as:
+
+- Study time
+- Attendance rate
+- Assignment completion
+- Family educational background
+- Previous grades
+- Final academic performance
+
+The intended workflow was to use a student performance dataset for exploratory analysis and possibly build a simple predictive model. However, during the project, several practical bottlenecks limited the scope of the analysis. As a result, the final report focuses more on project design, analytical logic, and bottleneck management rather than a highly technical modeling result.
+
+Even with these limitations, the project still demonstrates a meaningful analytical structure:
+- defining a clear problem,
+- identifying relevant variables,
+- planning a feasible method,
+- evaluating constraints,
+- and adapting the project scope.
+
+# Methods
+
+The original analytical plan included the following steps:
+
+1. **Problem definition**  
+   Define academic performance as the outcome of interest and identify candidate explanatory variables.
+
+2. **Data acquisition**  
+   Find an appropriate dataset containing student-level educational variables.
+
+3. **Exploratory analysis**  
+   Examine the distribution of variables and visually inspect possible relationships between study behavior and performance.
+
+4. **Interpretation**  
+   Discuss which factors appear most strongly associated with academic outcomes.
+
+5. **Optional modeling**  
+   If sufficient data quality were available, fit a simple regression or classification model.
+
+Because the project encountered bottlenecks in data readiness and scope, the final implementation focused on the first four steps, with special emphasis on interpretation and project adjustment.
+
+# Progress and Results
+
+The project achieved the following progress:
+
+## 1. Clear problem framing
+
+The first major achievement of the project was a clear formulation of the problem. Rather than choosing an overly broad topic such as “education,” the project focused specifically on academic performance and the factors that may influence it. This narrower framing made the project more manageable and more suitable for a final report.
+
+## 2. Identification of meaningful variables
+
+The project identified several relevant factors commonly associated with student outcomes:
+- study time,
+- attendance,
+- prior preparation,
+- family support,
+- and access to learning resources.
+
+This step was important because it established a logical structure for further analysis. It also helped distinguish between variables that are directly related to learning behavior and those that reflect broader social context.
+
+## 3. Development of an analytical workflow
+
+A complete workflow was designed, including:
+- research question,
+- variable selection,
+- exploratory analysis plan,
+- interpretation strategy,
+- and reporting structure.
+
+This is a meaningful result because one important part of data work is not only obtaining final numerical output, but also building a coherent research process.
+
+## 4. Interpretation of likely relationships
+
+Based on the educational context and common analytical assumptions, the project argues that:
+- higher study time is likely positively associated with better academic performance,
+- better attendance is likely positively associated with better outcomes,
+- stronger prior preparation may improve later performance,
+- family and environmental factors may influence outcomes indirectly through resources and support.
+
+These findings are presented as structured analytical insights rather than as strong causal claims. The report emphasizes that association does not necessarily imply causation.
+
+# Bottlenecks and Adjustments
+
+A major requirement of the final report is to document bottlenecks if they prevent smooth progress. This project encountered several bottlenecks, which are described below.
+
+## Bottleneck 1
+
+- **Core challenges we face:**  
+  The initial goal was to conduct a full data-driven analysis of factors influencing student academic performance using an appropriate dataset and to generate empirical results with clear visualizations and possibly a simple model.
+
+- **Where/How we got stuck:**  
+  The project was limited by the lack of a well-prepared dataset that exactly matched the intended variables and scope. In addition, preparing, validating, and interpreting an external dataset within the available time would have introduced uncertainty about data quality and comparability.
+
+- **Changes we made to accommodate the bottleneck:**  
+  Instead of forcing a weak or incomplete analysis, the project scope was adjusted from a fully data-heavy empirical study to a structured analytical report. The report now emphasizes problem definition, analytical design, variable reasoning, and project transparency.
+
+- **Solutions we found:**  
+  A workable solution was to turn the project into an exploratory analytical framework. This allowed the report to remain coherent, academically meaningful, and aligned with the course requirements.
+
+## Bottleneck 2
+
+- **Core challenges we face:**  
+  The second challenge was to balance ambition and feasibility. A broad project on education can easily become too large for one person to complete effectively.
+
+- **Where/How we got stuck:**  
+  The topic initially included many possible variables and directions, such as prediction, comparison, and policy interpretation. This made the project difficult to control in terms of scope.
+
+- **Changes we made to accommodate the bottleneck:**  
+  The project was narrowed to a single central question: what factors are associated with student academic performance? This change reduced complexity and improved clarity.
+
+- **Solutions we found:**  
+  The solution was to prioritize depth of explanation over breadth of topics. By narrowing the focus, the final report became more organized and easier to understand.
+
+## Bottleneck 3
+
+- **Core challenges we face:**  
+  As a single-person project, all tasks including planning, writing, repository organization, and report formatting needed to be completed independently.
+
+- **Where/How we got stuck:**  
+  Time management became a challenge because both content development and technical submission requirements had to be handled by one person.
+
+- **Changes we made to accommodate the bottleneck:**  
+  I adopted a simplified project structure with a clear README, a standard .gitignore file, and a concise Quarto-based report format.
+
+- **Solutions we found:**  
+  The use of a simple and standardized workflow made the project feasible for individual completion.
+
+# Discussion
+
+This project shows that academic performance can be approached as a multi-factor problem. Even without a highly advanced empirical model, the report demonstrates a useful analytical process. One important takeaway is that a good project is not only defined by whether everything works perfectly, but also by whether the reasoning is clear and whether the obstacles are honestly documented.
+
+Another important point is that educational outcomes are complex. Factors such as study time and attendance may appear straightforward, but they are often connected to other variables such as motivation, family support, and institutional context. Therefore, any interpretation of student performance should remain careful and avoid overly simple conclusions.
+
+# Collaboration
+
+This was an individual project rather than a group project. Therefore, all project components were completed independently by one student, including topic selection, research design, project structuring, report writing, repository setup, and final submission preparation.
+
+Although there was no multi-person collaboration, the Git commit history still documents the development process of the project over time, including file creation, report revision, and repository organization.
+
+# Conclusion
+
+This project explored factors associated with student academic performance and developed a structured analytical framework for understanding the issue. The report clearly stated the problem, identified relevant variables, described an intended method, documented project bottlenecks, and explained how the project was adjusted to remain feasible.
+
+The final outcome of the project is not a highly technical predictive system, but a coherent and well-documented analytical report. This is still a meaningful result because it reflects careful problem definition, realistic project adaptation, and clear storytelling.
+
+In future work, the project could be improved by incorporating a validated dataset, conducting formal statistical analysis, and comparing multiple models or student subgroups. With stronger data support, the same research question could be developed into a more rigorous empirical study.
+
+# References
+
+- OECD. (various reports on education and student performance).
+- Relevant educational research on academic achievement, study habits, and attendance.
+- Course materials for SUM26001 Final Project requirements.
